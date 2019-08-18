@@ -66,7 +66,7 @@ Sobre ToDo
 - [LabelFrame](src/widgets-tk/labelframe.py).
 - [Listbox](src/widgets-tk/listbox_with_scrollbar.py).
 - [Menu](src/widgets-tk/menu.py).
-- Menubutton: Tornou-se obsoleto a partir da versão 8.0.
+- [Menubutton](src/widgets-tk/menubutton.py) (obsoleto a partir da versão 8.0?).
 - [Message](src/widgets-tk/message.py).
 - [PanedWindow](src/widgets-tk/panedwindow.py).
 - [Radiobutton](src/widgets-tk/radiobutton.py).
