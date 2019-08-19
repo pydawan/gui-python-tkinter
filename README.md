@@ -51,7 +51,7 @@ Sobre ToDo
 ### Style 
 
 - [style tk](src/style/style_tk.py).
-- style ttk: ToDo
+- [style ttk](src/style/style_ttk.py)
 
 ### Widgets
 
@@ -80,7 +80,25 @@ Sobre ToDo
 
 ### Widgets ttk
 
-ToDo
+- [Button](src/widgets-ttk/button.py).
+- [Checkbutton](src/widgets-ttk/checkbutton.py).
+- [Combobox](src/widgets-ttk/combobox.py).
+- [Entry](src/widgets-ttk/entry.py).
+- [Frame](src/widgets-ttk/frame.py).
+- [Label](src/widgets-ttk/label.py).
+- [LabelFrame](src/widgets-ttk/labelframe.py).
+- [Menubutton](src/widgets-ttk/menubutton.py).
+- [Notebook](src/widgets-ttk/notebook.py).
+- [PanedWindow](src/widgets-ttk/panedwindow.py).
+- [Progressbar](src/widgets-ttk/progressbar.py).
+- [Progressbar com thread](src/widgets-ttk/progressbar_with_thread.py).
+- [Radiobutton](src/widgets-ttk/radiobutton.py).
+- [Scale](src/widgets-ttk/scale.py).
+- [Scrollbar](src/widgets-ttk/scrollbar_x_y_axis.py).
+- [Separator](src/widgets-ttk/separator.py).
+- [Sizegrip](src/widgets-ttk/sizegrip.py).
+- [Spinbox](src/widgets-ttk/spinbox.py).
+- [Treeview](src/widgets-ttk/treeview.py).
 
 ## Exemplos
 
