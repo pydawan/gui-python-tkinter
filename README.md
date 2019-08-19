@@ -32,7 +32,43 @@ O instalador do [site oficial](https://www.python.org/) do Python já instala o 
 
 ## Tkinter
 
-Sobre ToDo
+Tkinter é a biblioteca padrão para construção de interfaces gráficas com Python, a mesma acompanha a [distribuição oficial de Python](https://www.python.org/).http://pyinstaller.readthedocs.io/en/v3.3.1/
+
+Tkinter é baseado no toolkit [Tcl/Tk](http://www.tcl.tk/), da linguagem Tcl.
+
+Para verificar os parâmetros que um determinado widget pode utilizar:
+
+```python
+print(tk.Button().keys())
+```
+
+Para configurar os widgets o Tkinter fornece pelo menos 4 formas:
+
+```python
+        button = tk.Button(
+            master=self,
+            text='Botão',
+        )
+        button.pack()
+```
+```python
+        button = tk.Button(master=self)
+        button['text'] = 'Botão'
+        button.pack()
+```
+```python
+        button = tk.Button(master=self)
+        button.config(text='Botão')
+        button.pack()
+```
+```python
+        button = tk.Button(master=self)
+        button.configure(text='Botão')
+        button.pack()
+```
+> **OBS**: Lembre-se de substituir `self` por uma instância de `tk.Tk()`.
+
+As 4 formas presentadas a cima levam ao mesmo resultado, ficando a cargo de cada equipe definir qual será o padrão para o projeto.
 
 ### Command
 
