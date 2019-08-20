@@ -247,6 +247,12 @@ Cursores adicionais:
 - countingupanddownhand
 - spinning
 
+## Gerar excutáveis
+
+- [cx_Freeze](src/gen-exec/cxfreeze). O cx_Freeze está com problemas na instalação para Windows. No Linux pode ser necessário instalar dependências.
+- [Nuitka](src/gen-exec/nuitka).
+- [Pyinstaller](src/gen-exec/pyinstaller).
+
 ## Exemplos
 
 Lembre-se de verificar e instalar as dependências do arquivo `Pipfile` ([Pipenv](https://github.com/pypa/pipenv)).

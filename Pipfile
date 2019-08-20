@@ -7,6 +7,8 @@ verify_ssl = true
 pylint = "*"
 autopep8 = "*"
 pyinstaller = "*"
+cx-freeze = "*"
+nuitka = "*"
 
 [packages]
 sqlalchemy = "*"
