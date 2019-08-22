@@ -13,13 +13,23 @@ Entre em contato caso encontre algum erro ou se preferir abra uma issue :relaxed
 ### Fedora
 
 ```bash
-sudo dnf install python3-tkinter
+sudo dnf install \
+    python3 \
+    python3-idle \
+    python3-pip \
+    python3-tkinter
 ```
 
 ### Ubuntu
 
 ```bash
-sudo apt install python3-tk
+sudo apt install \
+    python3 \
+    python3-dev \
+    python3-pip \
+    python3-tk \
+    python3-venv \
+    idle3
 ```
 
 ### macOS
