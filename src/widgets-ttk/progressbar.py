@@ -1,5 +1,41 @@
 # -*- coding: utf-8 -*-
-"""."""
+"""
+Progressbar
+===========
+
+principais opções
+-----------------
+
+- `cursor`: (`str`) Cursor que é exibido quando o mouse passa sobre o
+widget. [Clique aqui](../extras/cursor.md) para ver os cursores válidos.
+- `length`: (`int` ou `float`) Tamanho (em pixels) do widget ao longo
+do eixo (x ou y).
+- `maximum`: Valor maximo do indicador. O valor padrão é 100.
+- `mode`: (`str`) determina o tipo do progressbar, os valores válidos
+são:
+    - `mode='indeterminate'` Marcador vai e volta no eixo determinado.
+    - `mode='determinate'` Marcador vai até o final do eixo e inicia
+    novamente.
+- **`orient`**: Especifica o eixo de posição do widget. O valor padrão
+é horizontal, valores válidos são:
+    - `orient=tk.HORIZONTAL`.
+    - `orient=tk.VERTICAL`.
+- **`style`**: Estilo que será aplicado ao widget.
+- **`takefocus`**: Parâmetro determina se o widget deve receber foco.
+O padrão é `False`.
+- **`variable`**: Determina o tipo de variável que será recebida pelo
+widget (`tk.DoubleVar()`, `tk.IntVar()` ou `tk.StringVar()`).
+
+Métodos
+-------
+
+- `start([interval])`: Inicia o widget, pode ser passado um valor que
+irá determinal a atualização automatica do valor. O valor padrão é de
+`50ms` (milesegundos).
+- `step([delta])`: Determina de quando em quanto o widget deve ser
+incrementado. O valor padrão é `1.0`.
+- `stop()`: Finaliza a execução do widget e retorna o valor para 0 (zero).
+"""
 import tkinter as tk
 from tkinter import ttk
 
